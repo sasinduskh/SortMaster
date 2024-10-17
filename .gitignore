@@ -1,0 +1,16 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore build files from py2app or other build tools
+build/
+dist/
+*.egg-info/
